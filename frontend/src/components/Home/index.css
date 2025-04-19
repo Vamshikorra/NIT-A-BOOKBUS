@@ -1,0 +1,41 @@
+.home{
+    height:100vh;
+    width:100vw;
+    color:white;
+}
+.heading-search-bus{
+    font-size:15px;
+    color:white;
+    align-self: center;
+}
+.home-container{
+    margin-top:10px;
+    display:flex;
+    flex-direction: column;
+   
+    color:white;
+    align-items: center;
+    justify-content: center;
+}
+.userInputSearch{
+    height:7px;
+    width:400px;
+}
+.label{
+    color:white;
+}
+.searchform{
+      width:400px;
+    display:flex;
+    flex-direction: column;
+}
+.btnsumbit{
+    height: 40px;
+    padding:10px;
+    font-size:15px;
+    width:100px;
+    background-color:blue;
+    color:white;
+    align-self: center;
+    text-align: center;
+}

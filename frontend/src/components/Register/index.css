@@ -1,0 +1,84 @@
+
+.login-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width:100vw;
+    
+  }
+  
+  .register-wrapper {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    width: 350px;
+    color: #fff;
+    text-align: center;
+  }
+  
+ 
+  .register-title {
+    font-size: 28px;
+    margin-bottom: 25px;
+    font-weight: bold;
+  }
+  
+ 
+  .register-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .form-input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 14px;
+  }
+  
+  .form-input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .form-input:focus {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+
+  .form-button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-button:hover {
+    background-color: #0056b3;
+  }
+ 
+  .message {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  

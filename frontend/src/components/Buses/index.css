@@ -1,0 +1,94 @@
+.heading{
+    color:rgb(225, 206, 206);
+}
+
+  
+ .home-container {
+    color:black;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+  
+ 
+  
+  
+  .bus-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+  }
+  .bus-card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 1rem;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .bus-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .bus-card p {
+    margin: 0.3rem 0;
+  }
+  .bus-card button {
+    margin-top: 0.8rem;
+    padding: 0.6rem 1rem;
+    background-color: #0077ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .bus-card button:hover {
+    background-color: #005ed3;
+  }
+  @media (max-width: 768px) {
+    .bus-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .bus-card {
+      width: 90%;
+    }
+  
+    .heading {
+      font-size: 1.6rem;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .bus-card {
+      width: 45%;
+    }
+  }
+  .bus-card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 1rem;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12); 
+    transition: transform 0.2s ease-in-out, box-shadow 0.3s;
+  }
+  
+  .bus-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.18); 
+  }
+    

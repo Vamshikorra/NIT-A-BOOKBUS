@@ -1,0 +1,31 @@
+link{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    
+}
+.nav-header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: #fff; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    z-index: 1000;  
+    align-items: flex-end;
+    justify-content: flex-end;
+ 
+}
+.header-link{
+
+    width:100%;
+   
+    display:flex;
+    width:400px;
+    margin-left:70% ;
+    align-self: flex-end;
+    
+    justify-content:space-around;
+}
+.link-logout-button{
+    color:black;
+}

@@ -1,0 +1,83 @@
+.MyBooking-page {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .MyBooking-page h2 {
+    margin-bottom: 20px;
+  }
+  
+  .booking-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:black;
+    height:100px;
+    padding-left:20px;
+    padding-right:20px;
+    font-size:15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width:100vw;
+    
+    background-color: #f9f9f9;
+  }
+  
+  .booking-card img {
+    width: 100%;
+    height: auto;
+   
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 15px;
+  }
+  
+  .booking-card p,
+  .booking-card h3 {
+    margin: 5px 0;
+  }
+  
+  .cancel-button {
+    margin-top: 15px;
+    background-color: transparent;
+    border: 1px solid red;
+    color: red;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .cancel-button:hover {
+    background-color: red;
+    color: white;
+  }
+  .route-date{
+    display: flex;
+    width:500px;
+    justify-content: space-around;
+  }
+  .bus-booked-card{
+    
+    height:80px;
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    padding:20px;
+  }
+  .cancel-button{
+    height:30px;
+    width:150px;
+    font-size:14px;
+  }
+  .busName{
+    font-size:18px;
+  }
+
+  .My-Bookings{
+    color:rgb(212, 199, 199);
+  }

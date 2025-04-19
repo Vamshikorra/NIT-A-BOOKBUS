@@ -1,0 +1,65 @@
+
+.reg-wrap {
+  color:black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('your-background.jpg') no-repeat center center/cover;
+  font-family: Arial, sans-serif;
+}
+
+
+.reg-form {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+ 
+  width: 100%;
+  max-width: 400px;
+}
+
+
+.reg-form label {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #1e0d0d;
+}
+
+.reg-form input {
+  width: 300px;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+
+.reg-form button {
+  margin-top: 1rem;
+
+  width: 120px;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reg-form button:hover {
+  background-color: #45a049;
+}
+
+
+.msg {
+  margin-top: 1rem;
+  text-align: center;
+  color: #fff;
+}
